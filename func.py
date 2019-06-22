@@ -16,6 +16,5 @@ def print_msg(*msg,sign='=',num=50):
             print(one_msg)
             if i!=msg[-1]:
                 print(s)
-
     print('{}'.format(sign))
-# print_msg('da的',1,[1,2],(21,21),{1:'21'},sign='=')
+# print_msg('da的',1,[1,2],(21,21),{1:'21'})
