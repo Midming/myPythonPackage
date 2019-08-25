@@ -28,3 +28,5 @@ def url_join(*args):
     if url[-1]=='/':
         url=url[:-1]
     return url
+
+#ceshi
