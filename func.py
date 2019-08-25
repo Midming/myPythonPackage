@@ -18,3 +18,13 @@ def print_msg(*msg,sign='=',num=50):
                 print(s)
     print('{}'.format(sign))
 # print_msg('da的',1,[1,2],(21,21),{1:'21'})
+
+def url_join(*args):
+    seq='/'
+    url=''
+    for i in args:
+        i=str(i)
+        url=url+i+'/'
+    if url[-1]=='/':
+        url=url[:-1]
+    return url
