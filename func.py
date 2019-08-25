@@ -19,6 +19,7 @@ def print_msg(*msg,sign='=',num=50):
     print('{}'.format(sign))
 # print_msg('da的',1,[1,2],(21,21),{1:'21'})
 
+#拼接url
 def url_join(*args):
     seq='/'
     url=''
